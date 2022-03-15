@@ -1,8 +1,12 @@
+public class Returnkeyword {  
 
-public class Returnkeyword {
-
-	public Returnkeyword() {
-		// TODO Auto-generated constructor stub
-	}
+     int display()  
+    {  
+        return 10;  
+    }  
+    public static void main(String[] args) {  
+    Returnkeyword e =new Returnkeyword();  
+    System.out.println(e.display());  
+}  
 
 }
